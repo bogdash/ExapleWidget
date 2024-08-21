@@ -1,4 +1,4 @@
-package com.example.exaplewidget
+package com.example.exaplewidget.widget
 
 import android.content.Context
 import androidx.compose.runtime.Composable

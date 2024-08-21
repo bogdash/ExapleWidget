@@ -67,6 +67,16 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation ("androidx.glance:glance:1.1.0")
-    implementation ("androidx.glance:glance-appwidget:1.1.0")
+    // glance widget
+    implementation (libs.androidx.glance)
+    implementation (libs.androidx.glance.appwidget)
+
+    // Network
+    implementation (libs.okhttp)
+    implementation (libs.retrofit2.retrofit)
+    implementation (libs.converter.gson)
+
+    // Coroutines
+    implementation (libs.kotlinx.coroutines.core)
+    implementation (libs.kotlinx.coroutines.android)
 }
