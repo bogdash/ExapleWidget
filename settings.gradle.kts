@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "ExapleWidget"
 include(":app")
- 
+include(":domain")
+include(":data")
