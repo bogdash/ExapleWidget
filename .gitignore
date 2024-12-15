@@ -28,3 +28,6 @@
 **/temp/
 **/bin/
 **/mapping.txt
+
+ # === kotlin ===
+.kotlin/errors
