@@ -83,4 +83,7 @@ dependencies {
 
     // Domain module
     implementation(project(":domain"))
+
+    // Data module
+    implementation(project(":data"))
 }
