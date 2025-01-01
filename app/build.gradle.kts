@@ -80,4 +80,7 @@ dependencies {
     // Coroutines
     implementation (libs.kotlinx.coroutines.core)
     implementation (libs.kotlinx.coroutines.android)
+
+    // Domain module
+    implementation(project(":domain"))
 }
